@@ -1,14 +1,18 @@
 body {
-    margin: 0%;
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #E6E6FA;
 }
 #logo {
-    height: 80px;
-    width: 80px;
+    height: 400px;
+    width: 500px;
+    align-items: center;
+    align-content: center
 
 }
 
-#container {
+#banner {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,3 +20,24 @@ body {
     flex-direction: column;
 
 }
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+ #footer {
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+  }
+
+  #footer a {
+    color: lightgrey;
+    font-size: 15px;
+  }
+  #footer a:hover {
+    color: white;
+  }
+  
